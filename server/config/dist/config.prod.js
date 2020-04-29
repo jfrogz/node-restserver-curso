@@ -1,1 +1,1 @@
-"use strict";process.env.PORT=process.env.PORT||3e3;
+"use strict";var urlDB;process.env.PORT=process.env.PORT||3e3,process.env.NODE_ENV=process.env.NODE_ENV||"dev",urlDB="dev"===process.env.NODE_ENV?"mongodb://localhost:27017/cafe":"mongodb+srv://slyfer:zyO8l6NrFTbp7Wtj@cluster0-8vfmz.mongodb.net/cafe",process.env.URLDB=urlDB;
